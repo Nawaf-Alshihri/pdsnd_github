@@ -166,7 +166,7 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
+# We will show the data based on the location. We will show the first 5 data in the first attempt, then the second 5 data for the second "yes,"
 def display_data(df):
     view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n').lower()
     start_loc = 0
